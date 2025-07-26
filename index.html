@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleanvoice Ai</title>
+    <link rel="shortcut icon" href="https://cleanvoice.ai/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navBar">
+        <div class="logo">
+            <a href="/"><svg aria-label="Home" id="logo" class="w-auto h-7 cursor-pointer" viewBox="0 0 73.889 13.492"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M4.87 9.282c0 .804-1.434.804-1.434 0v-3.62c0-.803 1.434-.803 1.434 0zm2.869 1.81c-.002.802-1.432.802-1.435 0V3.853c.002-.802 1.432-.802 1.435 0zm2.868-1.81c-.002.802-1.431.802-1.434 0v-3.62c.002-.801 1.432-.801 1.434 0zm2.869 1.81c0 .804-1.434.804-1.434 0V3.853c0-.804 1.434-.804 1.434 0zm2.869-1.81c0 .804-1.435.804-1.435 0v-3.62c0-.803 1.435-.803 1.435 0z"
+                        fill="#3e3ef4"></path>
+                    <g stroke-width=".265" aria-label="Cleanvoice">
+                        <path
+                            d="M22.41 11.462c2.106 0 3.186-1.397 3.471-2.55l-1.365-.413c-.201.698-.825 1.534-2.106 1.534-1.207 0-2.328-.878-2.328-2.476 0-1.704 1.185-2.508 2.307-2.508 1.302 0 1.884.793 2.064 1.513l1.375-.434c-.296-1.217-1.365-2.487-3.44-2.487-2.01 0-3.82 1.524-3.82 3.916s1.746 3.905 3.842 3.905zM28.29 11.312V3.65h-1.408v7.662zM30.82 8.112c.032-.476.434-1.027 1.164-1.027.805 0 1.143.508 1.164 1.027zm2.466 1.355c-.17.465-.53.793-1.185.793-.699 0-1.281-.497-1.313-1.185h3.726c0-.021.02-.233.02-.434 0-1.672-.962-2.698-2.57-2.698-1.334 0-2.562 1.079-2.562 2.74 0 1.757 1.26 2.784 2.688 2.784 1.28 0 2.106-.751 2.37-1.651zM35.33 9.892c0 .815.677 1.566 1.789 1.566.772 0 1.27-.36 1.534-.772 0 .2.021.487.053.624h1.291a5.823 5.823 0 01-.063-.825V7.923c0-1.047-.614-1.979-2.265-1.979-1.397 0-2.148.9-2.233 1.715l1.249.264c.042-.455.38-.846.995-.846.592 0 .878.307.878.677 0 .18-.095.328-.392.37l-1.28.191c-.868.127-1.556.646-1.556 1.577zm2.085.519c-.455 0-.677-.297-.677-.604 0-.402.285-.603.645-.656l1.175-.18v.233c0 .92-.55 1.207-1.143 1.207zM42.76 8.312c0-.603.36-1.08.974-1.08.677 0 .963.456.963 1.038v3.037h1.407v-3.28c0-1.144-.592-2.064-1.883-2.064-.561 0-1.186.243-1.503.783V6.1h-1.365v5.207h1.407zM52.35 6.1h-1.482L49.63 9.593 48.34 6.1h-1.545l2.127 5.207h1.407zM55.39 10.182c-.688 0-1.323-.508-1.323-1.482 0-.984.635-1.481 1.323-1.481s1.323.497 1.323 1.481c0 .985-.635 1.482-1.323 1.482zm0-4.244c-1.556 0-2.73 1.154-2.73 2.762 0 1.598 1.174 2.763 2.73 2.763s2.73-1.165 2.73-2.763c0-1.608-1.174-2.762-2.73-2.762zM60.64 11.312V6.105h-1.408v5.207zm-1.577-6.91a.87.87 0 00.868.856.863.863 0 00.868-.857.867.867 0 10-1.736 0zM64.48 7.242c.698 0 1.027.445 1.154.878l1.259-.423c-.222-.878-1.027-1.757-2.445-1.757-1.513 0-2.698 1.154-2.698 2.762 0 1.599 1.206 2.763 2.74 2.763 1.387 0 2.202-.89 2.435-1.757l-1.238-.413a1.192 1.192 0 01-1.196.879c-.72 0-1.334-.53-1.334-1.472 0-.941.604-1.46 1.323-1.46zM68.93 8.112c.032-.476.434-1.027 1.164-1.027.805 0 1.143.508 1.164 1.027zm2.466 1.355c-.17.465-.53.793-1.185.793-.699 0-1.281-.497-1.313-1.185h3.726c0-.021.02-.233.02-.434 0-1.672-.962-2.698-2.57-2.698-1.334 0-2.562 1.079-2.562 2.74 0 1.757 1.26 2.784 2.688 2.784 1.28 0 2.106-.751 2.37-1.651z">
+                        </path>
+                    </g>
+                </svg></a>
+        </div>
+        <div class="menuItems">
+            <button>Home</button>
+            <button>Features</button>
+            <button>Pricing</button>
+            <button>API</button>
+        </div>
+        <div class="loginAndSignUp">
+            <button id="login">Login</button>
+            <button id="signup">Sign Up</button>
+        </div>
+    </nav>
+    <img alt="cleanvoice ai" loading="lazy" width="100%" height="100%" decoding="async" data-nimg="1" class="opacity-5"
+        style="color:transparent" src="https://cleanvoice.ai/_next/static/media/logo_big.5665c7c9.svg">
+    <section class="section">
+        <h1 class="heroHeading">Edit your podcast in 4 hours <br> <span id="spanHeading">10 mins. Automatically.</span>
+        </h1>
+        <p class="heroPara">Remove background noise, filler words, long silence, and mouth sounds from your podcast
+            using. <br> <span id="spanHeading">Without hitting pause button every 10-20 seconds.</span></p>
+        <div class="iframeSection">
+            <iframe src="https://widget.senja.io/widget/3d34c4c3-80fb-475c-9e7a-bf69e7c523d0" frameborder="0"
+                allowfullscreen=""></iframe>
+            <!-- <iframe src="https://widget.senja.io/widget/3d34c4c3-80fb-475c-9e7a-bf69e7c523d0" alt="" srcset=""> -->
+            <p class="iframePara">Loved by 15,000+ podcasters</p>
+        </div>
+        <button class="heroBtn">Try it for free</button>
+    </section>
+
+
+
+    <section class="section2">
+
+        <div class="backgroundNoise ">
+            <video poster="https://cdn.cleanvoice.ai/images/9f2571dc-e80a-4ac6-9683-1153f748bb0d/Untitled.jpg"></video>
+            <audio src="https://cdn.cleanvoice.ai/assets/before.wav"></audio>
+        </div>
+
+        <div class="fillerWords">
+            <h1 class="section2-heading">Cleanvoice detects and removes fillers sounds such as <br> <span>um's and ah's
+                    in
+                    multiple languages</span></h1>
+            <div class="section2-btn">
+                <button class="section2-btn1">Background Noise</button>
+                <button class="section2-btn2">Filler Words</button>
+                <button class="section2-btn3">Transcription & Summary</button>
+            </div>
+            <div class="section2-box">
+                <div class="section2-box1">
+                    <p>Removing uhhhhh filler sounds and <br> <span>mouth sss- sounds is click very</span> <span>umm
+                            time
+                            consuming.</span></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM10.6219 8.41459L15.5008 11.6672C15.6846 11.7897 15.7343 12.0381 15.6117 12.2219C15.5824 12.2658 15.5447 12.3035 15.5008 12.3328L10.6219 15.5854C10.4381 15.708 10.1897 15.6583 10.0672 15.4745C10.0234 15.4088 10 15.3316 10 15.2526V8.74741C10 8.52649 10.1791 8.34741 10.4 8.34741C10.479 8.34741 10.5562 8.37078 10.6219 8.41459Z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="section2-box2">
+                    <p>Removing filler sounds and mouth <br> <span>sounds is very time consuming.</span></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM10.6219 8.41459L15.5008 11.6672C15.6846 11.7897 15.7343 12.0381 15.6117 12.2219C15.5824 12.2658 15.5447 12.3035 15.5008 12.3328L10.6219 15.5854C10.4381 15.708 10.1897 15.6583 10.0672 15.4745C10.0234 15.4088 10 15.3316 10 15.2526V8.74741C10 8.52649 10.1791 8.34741 10.4 8.34741C10.479 8.34741 10.5562 8.37078 10.6219 8.41459Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="section2-cleanBtn">
+            <button class="section2-mainBtn">Clean it for free</button>
+            <p class="section2-para">Without sign-up. No credit card needed.</p>
+        </div>
+
+        <div class="transcription">
+
+        </div>
+
+
+    </section>
+
+    <div class="slider">
+        <ul aria-hidden="true">
+            <div class="sliderLogo1"><img alt="Veed" src="https://cleanvoice.ai/assets/brand_logos/veed.svg"></div>
+            <div class="sliderLogo2"><img alt="bHuman" src="https://cleanvoice.ai/assets/brand_logos/human.svg"></div>
+            <div class="sliderLogo3"><img alt="Altered" src="https://cleanvoice.ai/assets/brand_logos/altered.svg">
+            </div>
+            <div class="sliderLogo4"><img alt="Thames College"
+                    src="https://cleanvoice.ai/assets/brand_logos/thames.svg">
+            </div>
+            <div class="sliderLogo5"><img alt="Teleprompter"
+                    src="https://cleanvoice.ai/assets/brand_logos/teleprompter.svg"></div>
+            <div class="sliderLogo6"><img alt="Natural Reader"
+                    src="https://cleanvoice.ai/assets/brand_logos/natural.svg">
+            </div>
+        </ul>
+    </div>
+
+    <div class="section3">
+        <h1 class="section3HeroHeading">“I have a job to do, but I love podcasting too”. <br> <span
+                id="section3SpanHeading">Is that you?</span></h1>
+        <p class="section3HeroPara">Got a lot on your schedule and editing your podcast takes half of it? <br> <span
+                id="spanHeading">Save 5x more time with Cleanvoice's AI podcast editing app.</span></p>
+    </div>
+    <div class="videoSection">
+        <video class="video" playsinline="" autoplay="" loop="" muted
+            poster="https://cdn.cleanvoice.ai/videos/70ccc0a6-c250-412b-bac9-41b29257f020/Adrian_Noise_01_thumb.jpg">
+            <source src="https://cdn.cleanvoice.ai/videos/70ccc0a6-c250-412b-bac9-41b29257f020/Adrian_Noise_01_av1.webm"
+                type="video/webm">
+            <source src="https://cdn.cleanvoice.ai/videos/70ccc0a6-c250-412b-bac9-41b29257f020/Adrian_Noise_01_h264.mp4"
+                type="video/mp4">Your browser does not support the video tag.
+        </video>
+        <div class="videoOptions">
+            <button>Background Noise Remover</button>
+            <button>Filler Words Remover in 20+ languages</button>
+            <button>Audio Enhancer</button>
+            <button>Mouth Sounds and Breath Remover</button>
+        </div>
+    </div>
+    <div class="section3" style="background-color: #F3F6FF">
+        <h1 class="section3HeroHeading">Transcribe, summarize, and automate more <br> <span
+                id="section3SpanHeading">things post-production</span></h1>
+        <p class="section3HeroPara">More than podcast cleaning. Without jumbling between tools.</p>
+    </div>
+    <div class="cards">
+        <div class="cards-content">
+            <h1>Podcast Summary + Social Content</h1>
+            <p>Generate podcast summary, without reading pages-long transcription and yawning. </p>
+            <p>Highlight key points with show notes and chapter markers. Boost your podcast with social content.</p>
+            <button>Create Summary</button>
+        </div>
+        <div class="card-image">
+            <img src="https://content.cleanvoice.ai/uploads/bento_1_2_6cf5fc8c46.svg" alt="" srcset="">
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card-image">
+            <img src="https://content.cleanvoice.ai/uploads/bento_2_88af6c05a8.svg" alt="" srcset="">
+        </div>
+        <div class="cards-content">
+            <h1>Podcast Transcription</h1>
+            <p>Going insane over transcribing podcast word-by-word? </p>
+            <p>Get error-free transcription in a click - no matter what your accent is. And download in multiple
+                formats.</p>
+            <button>Generate Transcript</button>
+        </div>
+    </div>
+    <div class="verticleCards">
+        <div class="verticle-card1">
+            <h2 class="veticleCard-heading">Multitrack Editing</h2>
+            <p class="veticleCard-para">Got multiple guests in separate tracks? </p>
+            <p>Simultaneously edit these files with our audio editor. And sync them into a single, uninterrupted
+                podcast. Save time.</p>
+            <img class="veticleCard-image" src="https://content.cleanvoice.ai/uploads/image_b33d1a6ffa.svg"></img>
+        </div>
+        <div class="verticle-card2">
+            <h2 class="veticleCard-heading">Timeline Export</h2>
+            <p class="veticleCard-para">Export timelines of removed parts from your recording.</p>
+            <p>Take a reference for manual editing. Or customize it in your editor.</p>
+            <img class="veticleCard2-image" src="https://content.cleanvoice.ai/uploads/bento_4_6254d9ff15.svg"></img>
+        </div>
+    </div>
+    <div class="section3">
+        <h1 class="section3HeroHeading">Edit Video or Audio. Easy as 1-2-3</h1>
+        <p class="section3HeroPara">No need to learn editing jargon or take days to understand UI. <br> <span
+                id="spanHeading">Simple for even first-time users.</span></p>
+    </div>
+    <div class="tiles">
+        <div class="tiles1">
+            <h1 class="number">1</h1>
+            <p class="text">Drag and Drop Your Files</p>
+            <img src="https://content.cleanvoice.ai/uploads/markup_cropped_b665c93740.svg" alt="" srcset="">
+        </div>
+        <div class="tiles2">
+            <h1 class="number">2</h1>
+            <p class="text">Sit Back and Let AI Do the Magic</p>
+            <img src="https://content.cleanvoice.ai/uploads/markup_cropped_1_21b1accd1b.svg" alt="" srcset="">
+        </div>
+        <div class="tiles3">
+            <h1 class="number">3</h1>
+            <p class="text">Download Or Export Clean Files</p>
+            <img src="https://content.cleanvoice.ai/uploads/markup_cropped_2_6d8f6ab96e.svg" alt="" srcset="">
+        </div>
+    </div>
+    <div class="section3">
+        <h1 class="section3HeroHeading">30+ brands use Cleanvoice’s API. Be the next.</h1>
+        <p class="section3HeroPara">Need to edit podcasts or videos at scale for your company or project? <br> <span
+                id="spanHeading">Our API automates editing and minimizes your team’s efforts.</span></p>
+    </div>
+    <div class="dashboardImge">
+        <img src="https://content.cleanvoice.ai/uploads/playground_preview_1_d24d70ad31.svg" alt="">
+        <button class="heroBtn">Setup API</button>
+    </div>
+
+    <div class="qna">
+        <h1 class="faqHeading">FAQs</h1>
+        <div class="iconUpDown">
+            <p class="ques">Who can use Clearvoice ai ? <span class="plusMinus">+</span></p>
+            <p class="ans">Whether you are a podcaster, media agency, business, audio engineer, or video editor, you
+                can use Cleanvoice's podcast editor.</p>
+        </div>
+        <div class="iconUpDown">
+            <p class="ques">Can I try Cleanvoice for free ? <span class="plusMinus">+</span></p>
+            <p class="ans">Yes, you can upload audio or video and try editing it for free.</p>
+        </div>
+        <div class="iconUpDown">
+            <p class="ques">Do you provide any free credits intially ? <span class="plusMinus">+</span></p>
+            <p class="ans">Yes. You get an additional 30 minutes of free credits once you sign up. Automate podcast
+                editing, summarize your podcast, and try what more you can do with Cleanvoice. Before choosing a
+                plan.</p>
+        </div>
+        <div class="iconUpDown">
+            <p class="ques">What formats do you support ? <span class="plusMinus">+</span></p>
+            <p class="ans">We support (almost) all audio and video formats. Including .wav, .mp3, .m4a, .flac, .mp4,
+                and more.</p>
+        </div>
+        <div class="iconUpDown">
+            <p class="ques">Can I upload batch files ? <span class="plusMinus">+</span></p>
+            <p class="ans">Yes, we support batch uploading. You can upload more than one podcast episode
+                simultaneously.</p>
+        </div>
+    </div>
+
+    <div class="lastSection">
+        <div>
+            <h1>Clean 30 minutes of audio and video for free.</h1>
+            <h2>No Credit Card needed.</h2>
+        </div>
+        <div class="lastSectionBtn">
+            <button class="setupBtn">Try it now</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logoDetails">
+            <svg aria-label="Home" id="logo" class="w-auto h-8 cursor-pointer" viewBox="0 0 73.889 13.492"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M4.87 9.282c0 .804-1.434.804-1.434 0v-3.62c0-.803 1.434-.803 1.434 0zm2.869 1.81c-.002.802-1.432.802-1.435 0V3.853c.002-.802 1.432-.802 1.435 0zm2.868-1.81c-.002.802-1.431.802-1.434 0v-3.62c.002-.801 1.432-.801 1.434 0zm2.869 1.81c0 .804-1.434.804-1.434 0V3.853c0-.804 1.434-.804 1.434 0zm2.869-1.81c0 .804-1.435.804-1.435 0v-3.62c0-.803 1.435-.803 1.435 0z"
+                    fill="#3e3ef4"></path>
+                <g stroke-width=".265" aria-label="Cleanvoice" fill="white">
+                    <path
+                        d="M22.41 11.462c2.106 0 3.186-1.397 3.471-2.55l-1.365-.413c-.201.698-.825 1.534-2.106 1.534-1.207 0-2.328-.878-2.328-2.476 0-1.704 1.185-2.508 2.307-2.508 1.302 0 1.884.793 2.064 1.513l1.375-.434c-.296-1.217-1.365-2.487-3.44-2.487-2.01 0-3.82 1.524-3.82 3.916s1.746 3.905 3.842 3.905zM28.29 11.312V3.65h-1.408v7.662zM30.82 8.112c.032-.476.434-1.027 1.164-1.027.805 0 1.143.508 1.164 1.027zm2.466 1.355c-.17.465-.53.793-1.185.793-.699 0-1.281-.497-1.313-1.185h3.726c0-.021.02-.233.02-.434 0-1.672-.962-2.698-2.57-2.698-1.334 0-2.562 1.079-2.562 2.74 0 1.757 1.26 2.784 2.688 2.784 1.28 0 2.106-.751 2.37-1.651zM35.33 9.892c0 .815.677 1.566 1.789 1.566.772 0 1.27-.36 1.534-.772 0 .2.021.487.053.624h1.291a5.823 5.823 0 01-.063-.825V7.923c0-1.047-.614-1.979-2.265-1.979-1.397 0-2.148.9-2.233 1.715l1.249.264c.042-.455.38-.846.995-.846.592 0 .878.307.878.677 0 .18-.095.328-.392.37l-1.28.191c-.868.127-1.556.646-1.556 1.577zm2.085.519c-.455 0-.677-.297-.677-.604 0-.402.285-.603.645-.656l1.175-.18v.233c0 .92-.55 1.207-1.143 1.207zM42.76 8.312c0-.603.36-1.08.974-1.08.677 0 .963.456.963 1.038v3.037h1.407v-3.28c0-1.144-.592-2.064-1.883-2.064-.561 0-1.186.243-1.503.783V6.1h-1.365v5.207h1.407zM52.35 6.1h-1.482L49.63 9.593 48.34 6.1h-1.545l2.127 5.207h1.407zM55.39 10.182c-.688 0-1.323-.508-1.323-1.482 0-.984.635-1.481 1.323-1.481s1.323.497 1.323 1.481c0 .985-.635 1.482-1.323 1.482zm0-4.244c-1.556 0-2.73 1.154-2.73 2.762 0 1.598 1.174 2.763 2.73 2.763s2.73-1.165 2.73-2.763c0-1.608-1.174-2.762-2.73-2.762zM60.64 11.312V6.105h-1.408v5.207zm-1.577-6.91a.87.87 0 00.868.856.863.863 0 00.868-.857.867.867 0 10-1.736 0zM64.48 7.242c.698 0 1.027.445 1.154.878l1.259-.423c-.222-.878-1.027-1.757-2.445-1.757-1.513 0-2.698 1.154-2.698 2.762 0 1.599 1.206 2.763 2.74 2.763 1.387 0 2.202-.89 2.435-1.757l-1.238-.413a1.192 1.192 0 01-1.196.879c-.72 0-1.334-.53-1.334-1.472 0-.941.604-1.46 1.323-1.46zM68.93 8.112c.032-.476.434-1.027 1.164-1.027.805 0 1.143.508 1.164 1.027zm2.466 1.355c-.17.465-.53.793-1.185.793-.699 0-1.281-.497-1.313-1.185h3.726c0-.021.02-.233.02-.434 0-1.672-.962-2.698-2.57-2.698-1.334 0-2.562 1.079-2.562 2.74 0 1.757 1.26 2.784 2.688 2.784 1.28 0 2.106-.751 2.37-1.651z">
+                    </path>
+                </g>
+            </svg>
+            <p>© 2024 Cleanvoice AI. All rights reserved</p>
+            <div class="socialLogo">
+                <img src="https://cleanvoice.ai/assets/footers/twitter.svg" alt="" srcset="">
+                <img src="https://cleanvoice.ai/assets/footers/facebook.svg" alt="" srcset="">
+                <img src="https://cleanvoice.ai/assets/footers/linkedin.svg" alt="" srcset="">
+                <img src="https://cleanvoice.ai/assets/footers/instagram.svg" alt="" srcset="">
+                <img src="https://cleanvoice.ai/assets/footers/youtube.svg" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="features">
+            <h3>Features</h3>
+            <a href="">Filler Words Remover</a>
+            <a href="">Podcast Summary & Shownotes</a>
+            <a href="">Mouth Sound Remover</a>
+            <a href="">Background Noise Remover</a>
+            <a href="">Podcast Mixing</a>
+            <a href="">Stutter Remover</a>
+            <a href="">Deadair Remover</a>
+            <a href="">Integrations</a>
+            <a href="">Podcast Transcription</a>
+            <a href="">Video Podcast Editing</a>
+        </div>
+        <div class="free-tools">
+            <h3>Free Tools</h3>
+            <a href="">Podcast Name Generator</a>
+            <a href="">Cleanscore - Podcast Audit</a>
+            <a href="">Episode Title Generator</a>
+            <a href="">Extract Audio From Video</a>
+            <a href="">Audio Trimmer</a>
+        </div>
+        <div class="company">
+            <h3>Company</h3>
+            <a href="">Home</a>
+            <a href="">Pricing</a>
+            <a href="">Blog</a>
+            <a href="">API Playground</a>
+            <a href="">API Docs</a>
+            <a href="">Platform Status</a>
+            <a href="">Contact</a>
+            <a href="">Press Kit</a>
+        </div>
+        <div class="legal">
+            <h3>Legal</h3>
+            <a href="">Privacy & Cookies</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Data Processing Agreement</a>
+            <a href="">Service Level Agreement</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
