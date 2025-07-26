@@ -1103,6 +1103,6 @@ svg {
   .company,
   .legal {
     align-items: center;
-    width: 100%;
+    width: fit-content;
   }
 }
